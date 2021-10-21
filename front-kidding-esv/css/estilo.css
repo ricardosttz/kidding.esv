@@ -63,6 +63,7 @@ h1{
     margin-left: auto;
     margin-right: auto
 }
+
 #area-principal{
     width: 920px;
     margin: 0 auto;
@@ -70,5 +71,8 @@ h1{
 #area-postagens{
     width: 660px;
     float: left;
+}
+.center{
+    text-align: center;
 }
 
