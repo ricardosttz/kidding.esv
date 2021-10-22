@@ -11,6 +11,7 @@ body{
     background-color: #669bbc;
     padding: 10px;
     text-align: center;
+    max-height: 200px;
 }
 #area-logo,
 #area-menu{
