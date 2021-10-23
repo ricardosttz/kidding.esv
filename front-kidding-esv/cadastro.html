@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Cadastro • Kidding.Esv</title>
+</head>
+<body>
+<div class="container login-container center-block">
+    <div class="row justify-content-center align-items-center" style="height:100vh">
+        <div class="col-md-6 login-form-2 card-body">
+            <div style="text-align: center;">
+                <a href="index.html"><img src="images/logotip.png" alt="" style="height: 120px; padding: 0%; margin: 0%;"></a>
+            </div>
+            <form>
+                <div class="form-group center">
+                    <input required type="text" class="form-control" placeholder="Nome *" value="" />
+                </div>
+                <div class="form-group center">
+                    <input required type="text" class="form-control" placeholder="Email *" value="" />
+                </div>
+                <div class="form-group center">
+                    <input required type="password" class="form-control" placeholder="Crie uma senha *" value="" />
+                </div>
+                <div class="form-group center">
+                    <input required type="password" class="form-control" placeholder="Digite senha novamente *" value="" />
+                </div>
+
+                <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" required>
+                      <label class="form-check-label point">
+                        Concordo com os <a href="termos.html" style="color: black;">Termos de Uso e Política de Privacidade</a> .
+                      </label>
+                    </div>
+                  </div>
+
+
+                <div class="form-group center">
+                    <input type="submit" class="btnSubmit" value="Cadastrar" />
+                </div>
+                <div class="form-group center">
+                    <p><a href="login.html" class="register" value="register">Já tem uma conta? Faça Login!</a></p>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<style>
+
+.login-form-2{
+    background: #669bbc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.register{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.point{
+    cursor: pointer;
+}
+body{
+    background-color: #e6e6e6;
+}
+</style>
